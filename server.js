@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 
 // Designate the port this server will run through
-app.set('port', process.env.port || 3001);
+app.set('port', process.env.PORT || 3001);
 
 // Declare app-level middleware
 app.use(express.json());
